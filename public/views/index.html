@@ -17,10 +17,15 @@
       <h3>Educate Yourself</h3> -->
  <!-- {{4+4}} -->
 <img src="./pics/logofinished.png" alt="Logo" width="860" height="200">
-    <h3>
-      National Races
-    </h3>
+
       <!-- <li><a href="/presidential"><button>President/Vice President</button></a></li> -->
+
+<div class="container">
+  <h3 class="national">
+    National Races
+  </h3>
+
+
 <div class="President">
       Presidential candidates: <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide"><br/>
 
@@ -57,16 +62,17 @@
     </ul>
 
   </div>
-</div>
-<br />
-<br />
-      <h3>
-        Statewide Races
-      </h3>
-      <!-- <li><a href="/Senate"><button>Minnesota Senator</button></a></li> -->
 
+<br />
+<br />
+
+      <!-- <li><a href="/Senate"><button>Minnesota Senator</button></a></li> -->
+  <h3 class="statewide">
+        Statewide Races
+  </h3>
           <div class="USSenate">
             U.S. Senate:<br/>
+            <br />
             <div>
             <li>
               There are no state-wide Senate races this election cycle!
@@ -77,7 +83,7 @@
       <br />
       <br />
           <div class="StateSupreme">
-      State Supreme Court Justices <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide"><br/>
+      State Supreme Court Justices: <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide"><br/>
 
             <div ng-show="checked">
               <ul>
@@ -94,6 +100,7 @@
               </ul>
             </div>
           </div>
+        </div>
 <br />
 <br />
 <br />
