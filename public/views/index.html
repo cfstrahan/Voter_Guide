@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="voteApp">
+  <head>
+    <meta charset="utf-8">
+    <base href="/" />
+    <script src="vendors/angular/angular.min.js" charset="utf-8"></script>
+    <script src="vendors/angular-route/angular-route.min.js" charset="utf-8"></script>
+    <script src="js/client.js" charset="utf-8"></script>
+    <link href="vendors/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/stylesheet.css" rel="stylesheet" />
+
+    <title>Voter Guide</title>
+  </head>
+  <!-- <body> -->
+  <body ng-controller="MainController">
+    <!-- <h1>Vote Better</h1>
+      <h3>Educate Yourself</h3> -->
+ <!-- {{4+4}} -->
+<img src="./pics/logofinished.png" alt="Logo" width="790" height="237">
+    <ul><p>
+      National Races
+    </p>
+      <li><button ng-click="showPrez()">President/Vice President</button></li>
+      <div>
+
+      </div>
+      <p>
+        Statewide Races
+      </p>
+      <li><button ng-click="showSenate()">Minnesota Senator</button></li><div>
+
+      </div>
+      <li><button ng-click="showStSuprem()">State Supreme Court Justices</button></li><div>
+
+      </div>
+    </ul>
+<br />
+<br />
+<br />
+<br />
+    <div class='mapButton'>
+      <a href="/map"><button type="button" class="btn btn-lg btn-info">Find Your District!</button></a>
+    </div>
+  </body>
+<br />
+<br />
+<br />
+<br />
+    <footer>
+      <p>Register to Vote at the <a href="https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx">
+        MN State Department</a>!</p>
+    </footer>
+</html>
