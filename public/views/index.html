@@ -17,32 +17,87 @@
       <h3>Educate Yourself</h3> -->
  <!-- {{4+4}} -->
 <img src="./pics/logofinished.png" alt="Logo" width="860" height="200">
-    <ul><p>
+    <h3>
       National Races
-    </p>
-      <li><a href="/presidential"><button>President/Vice President</button></a></li>
-      <div ng-view class="prez">
+    </h3>
+      <!-- <li><a href="/presidential"><button>President/Vice President</button></a></li> -->
+      Presidential candidates: <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide"><br/>
+<div>
 
-      </div>
-      <p>
-        Statewide Races
-      </p>
-      <li><a href="/Senate"><button>Minnesota Senator</button></a></li>
-        <div class="senate">
-
-
-        </div>
-      <li><a href="/StateSupreme"><button>State Supreme Court Justices</button></a></li>
-        <div class="stSupreme">
-
-        </div>
+  <div class="President" ng-show="checked">
+    <ul>
+      <li>
+        Presidential Candidate: Hilary Clinton<br />
+        Vice Presidential Candidate: Tim Caine<br />
+        Party: Democratic Party<br />
+        Website: <a href="https://www.hillaryclinton.com/">https://www.hillaryclinton.com/</a><br />
+      </li>
+      <br />
+      <li>
+        Presidential Candidate: Gary Johnson<br />
+        Vice Presidential Candidate: Bill Weld<br />
+        Party: Libertarian Party<br />
+        Website: <a href="https://www.johnsonweld.com/">https://www.johnsonweld.com/</a><br />
+      </li>
+      <br />
+      <li>
+        Presidential Candidate: Jill Stein<br />
+        Vice Presidential Candidate: Ajamu Baraka<br />
+        Party: Green Party<br />
+        Website: <a href="https://www.jill2016.com/">https://www.jill2016.com/</a><br />
+      </li>
+      <br />
+      <li>
+        Presidential Candidate: Donald Trump<br />
+        Vice Presidential Candidate: Mike Pence<br />
+        Party: Republican Party<br />
+        Website: <a href="https://www.donaldjtrump.com/">https://www.donaldjtrump.com/</a><br />
+      </li>
     </ul>
+
+  </div>
+</div>
+<br />
+<br />
+      <h3>
+        Statewide Races
+      </h3>
+      <!-- <li><a href="/Senate"><button>Minnesota Senator</button></a></li> -->
+      U.S. Senate:<br/>
+          <div>
+            <div class="USSenate">
+            <li>
+              There are no state-wide Senate races this election cycle!
+            </li>
+            </ul>
+            </div>
+          </div>
+      <br />
+      <br />
+
+      State Supreme Court Justices <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide"><br/>
+          <div>
+            <div class="StateSupreme" ng-show="checked">
+              <ul>
+                <li>
+                  Candidate: Natalie Hudson<br />
+                  Incumbent<br />
+                  Website: <a href="http://www.justicehudson.org">http://www.justicehudson.org</a><br />
+                </li>
+                <li>
+                  Candidate: Michelle L. MacDonald<br />
+                  Challenger<br />
+                  Website: <a href="http://www.macdonaldforjustice.com">http://www.macdonaldforjustice.com</a><br />
+                </li>
+              </ul>
+            </div>
+          </div>
 <br />
 <br />
 <br />
 <br />
     <div class='mapButton'>
-      <a href="/map"><button type="button" class="btn btn-lg btn-info">Find Your District!</button></a>
+      <a href="/http://public/views/map.html"><button type="button" class="btn btn-lg btn-info">Find Your District!</button></a>
     </div>
   </body>
 <br />

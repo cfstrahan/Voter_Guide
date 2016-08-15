@@ -1,5 +1,5 @@
 var router = require('express').Router();
-var presidential = [];
+var presidential = [{name: "butthole", origin: "colon"}];
 var senate = [];
 var houseRep = [];
 var stSupreme = [];
@@ -7,7 +7,8 @@ var stSupreme = [];
 console.log('this is working');
 
 router.get('/presidential', function(request, response){
-    console.log(butthole);
+    response.send(presidential)
+    console.log(presidential);
 })
 // router.get('/mPentath', function(request, response){
 //     var randomPentath = mPentath[randomindex(0, mPentath.length)]

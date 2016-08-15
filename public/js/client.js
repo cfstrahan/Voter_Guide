@@ -22,9 +22,14 @@ angular.module('voteApp').config(function($routeProvider, $locationProvider){
 
 angular.module('voteApp').controller('presidentialController', function($scope, $http){
   $http.get('/candidates/presidential').then(function(response){
-    $scope.fencer = response.data;
+    $scope.prez = response.data;
   });
 });
+// angular.module('olympicApp').controller('fencingController', function($scope, $http){
+//   $http.get('/olympian/fencing').then(function(response){
+//     $scope.fencer = response.data;
+//   });
+// });
 angular.module('voteApp').controller('StateSupremeController', function($scope, $http){
   $http.get('/candidates/StateSupreme').then(function(response){
     $scope.athlete = response.data;
