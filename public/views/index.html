@@ -21,10 +21,11 @@
       National Races
     </h3>
       <!-- <li><a href="/presidential"><button>President/Vice President</button></a></li> -->
+<div class="President">
       Presidential candidates: <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide"><br/>
-<div>
 
-  <div class="President" ng-show="checked">
+
+  <div  ng-show="checked">
     <ul>
       <li>
         Presidential Candidate: Hilary Clinton<br />
@@ -63,9 +64,10 @@
         Statewide Races
       </h3>
       <!-- <li><a href="/Senate"><button>Minnesota Senator</button></a></li> -->
-      U.S. Senate:<br/>
-          <div>
-            <div class="USSenate">
+
+          <div class="USSenate">
+            U.S. Senate:<br/>
+            <div>
             <li>
               There are no state-wide Senate races this election cycle!
             </li>
@@ -74,10 +76,10 @@
           </div>
       <br />
       <br />
-
+          <div class="StateSupreme">
       State Supreme Court Justices <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide"><br/>
-          <div>
-            <div class="StateSupreme" ng-show="checked">
+
+            <div ng-show="checked">
               <ul>
                 <li>
                   Candidate: Natalie Hudson<br />
@@ -96,9 +98,163 @@
 <br />
 <br />
 <br />
-    <div class='mapButton'>
+    <!-- <div class='mapButton'>
       <a href="/http://public/views/map.html"><button type="button" class="btn btn-lg btn-info">Find Your District!</button></a>
-    </div>
+    </div> -->
+    <h2>Find Your Congressional District!</h2>
+    <iframe width="800" height="450" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col5+from+1QlQxBF17RR-89NCYeBmw4kFzOT3mLENp60xXAJM&amp;viz=MAP&amp;h=false&amp;lat=36.13899889821154&amp;lng=-95.66226699999993&amp;t=1&amp;z=4&amp;l=col5"></iframe>
+<br />
+<br />
+    <h3>Who's Running in Your District?</h3>
+    <div class="">
+
+    <h2>1st District</h2>
+      <ul>
+        <li>
+          Candidate: Jim Hagedorn<br />
+          Party: Republican Party<br />
+          Challenger<br />
+          Website: <a href="http://jimhagedorn.org">http://jimhagedorn.org</a>
+
+        </li>
+        <li>
+          Candidate: Tim Walz<br />
+          Party: Democratic Party<br />
+          Incumbent<br />
+          Website: <a href="http://www.timwalz.org">http://www.timwalz.org</a>
+
+        </li>
+      </ul>
+    <h2>2nd District</h2>
+    <ul>
+      <li>
+        Candidate: Angie Craig<br />
+        Party: Democratic Party<br />
+        Website: <a href="http://www.angiecraig.com">http://www.angiecraig.com</a>
+
+      </li>
+      <li>
+        Candidate: Jason Lewis<br />
+        Party: Republican Party<br />
+        Website: <a href="https://join.jasonlewis2016.com/">https://join.jasonlewis2016.com/</a>
+
+      </li>
+    </ul>
+    <h2>3rd District</h2>
+    <ul>
+      <li>
+        Candidate: Erik Paulsen<br />
+        Party: Republican Party<br />
+        Incumbent<br />
+        Website: <a href="https://paulsenforcongress.com/">https://paulsenforcongress.com/</a>
+
+      </li>
+      <li>
+        Candidate: Terri Bonoff<br />
+        Party: Democratic Party<br />
+        Challenger<br />
+        Website: <a href="http://www.terribonoff.com">http://www.terribonoff.com</a>
+
+      </li>
+    </ul>
+    <h2>4th District</h2>
+    <ul>
+      <li>
+        Candidate: Betty McCollum<br />
+        Party: Democratic Party<br />
+        Incumbent<br />
+        Website: <a href="http://www.mccollumforcongress.com/">http://www.mccollumforcongress.com/</a>
+
+      </li>
+      <li>
+        Candidate: Greg Ryan<br />
+        Party: Republican Party<br />
+        Challenger<br />
+        Website: <a href="http://www.ryan4us.com">http://www.ryan4us.com</a>
+
+      </li>
+    </ul>
+    <h2>5th District</h2>
+    <ul>
+      <li>
+        Candidate: Keith Ellison<br />
+        Party: Democratic Party<br />
+        Incumbent<br />
+        Website: <a href="http://www.keithellison.org/">http://www.keithellison.org/</a>
+
+      </li>
+      <li>
+        Candidate: Frank Nelson Drake<br />
+        Party: Republican Party<br />
+        Challenger<br />
+        Website: <a href="http://www.frankdrakeforcongress.org/">http://www.frankdrakeforcongress.org/</a>
+
+      </li>
+      <li>
+        Candidate: Dennis Schuller<br />
+        Party: Legal Marijuana Now<br />
+        Challenger<br />
+        Website: <a href="https://ballotpedia.org/Dennis_Schuller/">https://ballotpedia.org/Dennis_Schuller/</a>
+
+      </li>
+    </ul>
+    <h2>6th District</h2>
+    <ul>
+      <li>
+        Candidate: Tom Emmer<br />
+        Party: Republican Party<br />
+        Incumbent<br />
+        Website: <a href="http://emmerforcongress.com">http://emmerforcongress.com</a>
+
+      </li>
+      <li>
+        Candidate: David Snyder<br />
+        Party: Democratic Party<br />
+        Challenger<br />
+        Website: <a href="https://davidsnyderforcongress2016.com">https://davidsnyderforcongress2016.com</a>
+
+      </li>
+    </ul>
+    <h2>7th District</h2>
+    <ul>
+      <li>
+        Candidate: Collin Peterson<br />
+        Party: Democratic Farmer Labor Party<br />
+        Incumbent<br />
+        Website: <a href="http://www.petersonforcongress.com">http://www.petersonforcongress.com</a>
+
+      </li>
+      <li>
+        Candidate: David Hughes<br />
+        Party: Republican<br />
+        Challenger<br />
+        Website: <a href="http://www.hughesforcongress.us">http://www.hughesforcongress.us</a>
+
+      </li>
+    </ul>
+    <h2>8th District</h2>
+    <ul>
+      <li>
+        Candidate: Rick Nolan<br />
+        Party: Democratic Party<br />
+        Incumbent<br />
+        Website: <a href="http://www.nolanforcongress.org">http://www.nolanforcongress.org</a>
+
+      </li>
+      <li>
+        Candidate: Steward Mills<br />
+        Party: Republican Party<br />
+        Challenger<br />
+        Website: <a href="http://www.stewartmills.com">http://www.stewartmills.com</a>
+
+      </li>
+    </ul>
+
+
+
+
+
+
   </body>
 <br />
 <br />

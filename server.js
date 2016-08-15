@@ -14,6 +14,7 @@ app.use(express.static('node_modules/bootstrap'));
 
 app.use('/candidates', candidates),
 app.use('/', index);
+app.use('/map', map),
 app.use('/*', function(request, response){
   response.sendFile(path.join(__dirname, './public/views/index.html'));
 });

@@ -1,8 +1,26 @@
 html {
-  background-image: url('./pics/Cartoon-Captain-America-Movie-1920x10801.jpg');
+  background-image: url("./pics/Cartoon-Captain-America-Movie-1920x10801.jpg");
   background-color: #cccccc;
 }
 
-footer.p {
+footer {
   text-align: center;
+}
+
+h3 {
+  padding-left: 8%;
+
+}
+h2 {
+  padding-left: 10%;
+}
+
+.President {
+  padding-left: 7%;
+}
+.USSenate {
+  padding-left: 7%;
+}
+.StateSupreme {
+  padding_left: 7%;
 }
