@@ -4,7 +4,7 @@ var senate = [];
 var houseRep = [];
 var stSupreme = [];
 
-console.log('this is working');
+console.log('candidates is working');
 
 router.get('/presidential', function(request, response){
     response.send(presidential)

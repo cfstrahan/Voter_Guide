@@ -22,5 +22,5 @@ app.use('/*', function(request, response){
 
 var server = app.listen(process.env.PORT || 3000, function(){
   var port = server.address().port;
-  console.log('Definitely working on port ', port);
+  console.log('Starting attack run on exhaust port ', port);
 });
